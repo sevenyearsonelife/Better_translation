@@ -16,7 +16,7 @@
 
 2. **Wikipedia**:
    - 从[OpenDataLab 引领AI大模型时代的开放数据平台](https://opendatalab.com/ABear/Wiki_EN/explore/main)上下载了Wiki_EN的数据集，数据大小为14.1GB。数据格式为jsonl, 字段为：id， source_id，doc_id，data_type，data_source，data_url，content，remark
-   - content中的数据标题和段落之间使用\n分割，##和###分别表示一级和二级标题。
+   - content中的数据标题和段落之间使用`\n`分割，`##`和`###`分别表示一级和二级标题。
    - 翻译语料主要是选择词数在 200 左右的段落。并且会使用nltk包+一些规则进行句子完整性检查并GPT-4o mini进行语法修正。
 
 3. **The Economist**:
